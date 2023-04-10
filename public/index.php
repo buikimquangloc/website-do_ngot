@@ -98,7 +98,7 @@ $cat = new Category($PDO);
             <div class="card shadow-lg colsm5lg" style="width: 16rem;  ">
                 <a href="productdetails.php?proid=<?=htmlspecialchars($product->getId())?>"><img style="width: 254px;height: 230px;z-index:-1;" class="img-fluid nameproduct" src="admin/uploads/<?=htmlspecialchars($product->image)?>" alt="First place"></a>
                 <div class="card-body">
-                    <h3><a class="text-decoration-none text-warning" href="#"><?=htmlspecialchars($product->productName)?></a></h3>
+                    <h5 class="text-center"><a class="text-decoration-none text-warning text-center nameproduct" href="#"><?=htmlspecialchars($product->productName)?></a></h5>
                     <p class="current_price text-center"><?=htmlspecialchars($product->price). " "."VNĐ" ?></p>
                 </div>
             </div>
