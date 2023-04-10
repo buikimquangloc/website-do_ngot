@@ -1,0 +1,8 @@
+.dn:hover {
+    background-color: #dfdaf4;
+}
+
+.tkerror {
+    color: red;
+    font-size: italic;
+}

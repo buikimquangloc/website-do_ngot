@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+.lidm {
+	list-style: none;
+	padding: 5px;
+	position: relative;
+	right: 0;
+	transition: right 0.3s linear;
+}
+
+.lidm:hover {
+	color: green;
+	right: -2px;
+}
+
+.uldm {
+	padding-left: 0;
+}
+
+.nav-link.active {
+	color: black;
+	font-weight: bold;
+}
+
+.nav-link.active.open {
+	color: red;
+}
+
+.dropdown-item.dm.open2 {
+	color: red;
+	padding-left: 5px;
+}
+
+.namedm {
+	padding: 10px;
+	margin-bottom: 0;
+}
+
+.dmsp {
+	margin-top: 12px;
+}
+
+.current_price2 {
+	text-align: center;
+	margin: 0;
+	color: red;
+}
+
+.position {
+	position: fixed;
+	background-color: white;
+	z-index: 1000;
+	margin: 0;
+	top: -24px;
+	width: 89%;
+	left: 59px;
+}
+
+.navbar.navbar-expand-lg.bg-light.nav {
+	margin-top: 7px;
+}
+
+.logomeo {
+	width: 110px;
+	height: 60px;
+	border-radius: 50%;
+	margin-left: 45px;
+	margin-top: 5px;
+}
+
+.paddingtop {
+	padding-top: 50px;
+}
+
+.colsm5 {
+	width: 20%;
+}
+
+.colsm5lg {
+	width: 15.5rem;
+}
+
+.nameproduct {
+	font-size: 20px;
+}
