@@ -38,7 +38,9 @@ $cat = new Category($PDO);
                             $cats = $cat->show_category_frontend();
                             foreach($cats as $cat):
                         ?>
-                        <li class="lidm"><a class="dropdown-item dm" href="shopcategory.php?catId=<?=htmlspecialchars($cat->getId())?>"><?=htmlspecialchars($cat->catName)?></a></li>
+                        <li class="lidm"><a class="dropdown-item dm" 
+                            href="shopcategory.php?catId=<?=htmlspecialchars($cat->getId())?>">
+                            <?=htmlspecialchars($cat->catName)?></a></li>
                         <?php endforeach ?>	
                     </ul>
                 </div>
