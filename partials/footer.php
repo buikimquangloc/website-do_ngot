@@ -50,7 +50,7 @@
             
               <div class="row mt-4 bg-light">
                 <div class="col-6 mt-3">
-                    <p>© Bản quyền thuộc về Shop Hoàng Thượng.</p>
+                    <p >© Bản quyền thuộc về Shop Hoàng Thượng.</p>
                 </div>
             </div>
         </footer>
