@@ -122,7 +122,7 @@ class Customer
 		$stmt->execute(['name' => $this->name, 'address' => $this->address,'phone' => $this->phone,'email' => $this->email,'password' => md5($this->password)]);
 
 		if($stmt -> rowCount() > 0) {
-			$alert = "<span class='success'>Đăng ký khách hàng thành công</span>";
+			$alert = "<span class='success text-success'>Đăng ký khách hàng thành công</span>";
 			return $alert;
 		}
 		else{
