@@ -1,6 +1,6 @@
 <?php
 
-include_once "C:/xampp/apps/project/bootstrap.php";
+include_once "C:/xampp/apps/project/db.php";
 
 use CT275\Project\Category;
 

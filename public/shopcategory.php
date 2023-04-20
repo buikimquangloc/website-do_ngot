@@ -1,5 +1,5 @@
 <?php
-include "../bootstrap.php";
+include "../db.php";
 session_start();
 
 use CT275\Project\Product;
@@ -105,7 +105,7 @@ $cat = new Category($PDO);
 
 	<?php include('../partials/footer.php') ?>
     
-    <script src="js/dungchung1.js"></script>
+    
     <script>
         const namedm = document.querySelector(".namedm")
         if (names) {

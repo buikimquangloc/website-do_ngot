@@ -37,4 +37,4 @@ Project:
         - product.php
     vendor
         - autoloader.php
-    bootstrap.php
+    db.php
